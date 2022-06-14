@@ -1,0 +1,109 @@
+html,
+body {
+  overflow-x: none;
+}
+body {
+  margin-top: 15vh;
+  text-align: center;
+  background-image: url(./boxer-1984344_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.566);
+  outline: none;
+  border-radius: 50px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.801);
+  font-size: 50px;
+}
+p {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: white;
+  background-image: linear-gradient(
+    to right bottom,
+    #116979,
+    #00638a,
+    #005a9c,
+    #004da9,
+    #0038a9,
+    #332891,
+    #411679,
+    #450062,
+    #410040,
+    #330326,
+    #210413,
+    #000000
+  );
+  font-size: 25px;
+}
+
+input {
+  width: 90%;
+  padding: 5px 14px;
+  border: 2px solid #201f1d;
+  margin-bottom: 10px;
+  background-color: rgba(200, 178, 178, 0.4);
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+input:focus {
+  border: 2px solid rgba(0, 0, 0, 0.747);
+  background-color: rgb(60, 60, 60);
+}
+
+form {
+  background-color: rgba(85, 83, 94, 0);
+  padding: 20px;
+  color: rgb(85, 76, 76);
+  box-shadow: 0 30px 95px 15px rgba(9, 9, 145, 0.314);
+}
+
+form p {
+  margin-bottom: 5px;
+}
+
+form p:nth-child(1) {
+  margin-top: 0;
+}
+
+.panel {
+  margin-top: 10px;
+  float: none;
+}
+#results {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  margin-top: 70px;
+  font-weight: bolder;
+}
+
+@media (min-width: 768px) {
+  .panel {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .panel {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
